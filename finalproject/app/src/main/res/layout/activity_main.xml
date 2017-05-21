@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seunggi.finalproject.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:drawableTop="@drawable/one"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="8dp"
+        android:drawableTop="@drawable/five"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/button4"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="17dp"
+        android:drawableTop="@drawable/four"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="19dp"
+        android:drawableTop="@drawable/three"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="27dp"
+        android:drawableTop="@drawable/two"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/button" />
+
+</android.support.constraint.ConstraintLayout>
